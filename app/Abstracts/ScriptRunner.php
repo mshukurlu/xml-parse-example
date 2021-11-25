@@ -1,7 +1,9 @@
 <?php
 namespace App\Abstracts;
 
-abstract  class ScriptRunner
+use App\Interfaces\RunnerInterface;
+
+abstract  class ScriptRunner implements RunnerInterface
 {
     abstract public function Run();
 }

@@ -11,12 +11,13 @@ abstract  class SourceXmlAbstract implements GetXmlFromSource
     protected $xmlSource = null;
     public function setXmlSource($source)
     {
-        if(!file_exists($source)){
+
+        if(file_exists($source)){
             //read the file and bind its content
             $this->xmlSource = file_get_contents($source);
+        }else {
+            throw new \Exception('File not found!');
         }
-
-        throw new \Exception('File not found!');
     }
 
     public function getXmlFromSource()

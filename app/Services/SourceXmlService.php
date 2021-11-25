@@ -4,12 +4,14 @@ namespace App\Services;
 
 use App\Abstracts\SourceXmlAbstract;
 
+
 class SourceXmlService  extends SourceXmlAbstract
 {
     public function sumAllBetAmount(){
 
-        $childNodes = DomDocumentService::getChildNodesFromXml($this->xmlSource);
+        $childNodes = XmlParseService::getBetInfoProperty($this->xmlSource);
         $sum = 0;
+        var_dump($childNodes); exit();
         foreach ($childNodes as $item){
                 if($item->nodeName==$this->getSumColumnName()){
                     $sum+=$item->nodeValue;
