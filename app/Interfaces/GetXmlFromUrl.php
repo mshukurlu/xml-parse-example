@@ -4,8 +4,8 @@
 namespace App\Interfaces;
 
 
-interface GetXmlFromUrl
+interface GetXmlFromUrl extends XmlParser
 {
-    public function setXmlUrl();
-    public function getXmlFromUrl();
+    public function setXmlUrl($url);
+    public function getXmlUrl();
 }

@@ -13,13 +13,11 @@ class GetXmlFromSource extends ScriptRunner
 
     public function __construct()
     {
-        $this->sourceService = new SourceXmlService();
+      $this->sourceService = new SourceXmlService(__DIR__.'/../../source/example.xml');
     }
 
     public function Run()
     {
-        $this->sourceService->setXmlSource( __DIR__.'/../../source/example.xml');
-
         echo $this->sourceService->getResult();
     }
 }

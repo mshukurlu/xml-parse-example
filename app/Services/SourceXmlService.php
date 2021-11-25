@@ -7,6 +7,12 @@ use App\Abstracts\SourceXmlAbstract;
 
 class SourceXmlService  extends SourceXmlAbstract
 {
+
+    public function __construct($source)
+    {
+        $this->setXmlSource($source);
+    }
+
     public function sumAllBetAmount(){
 
         $getBetInfo = XmlParseService::getBetInfoProperty($this->getLoadedSource());

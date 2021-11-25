@@ -8,21 +8,15 @@ use App\Interfaces\GetXmlFromSource;
 
 abstract  class SourceXmlAbstract implements GetXmlFromSource
 {
-    protected $xmlSource = null;
+    protected $source = null;
     public function setXmlSource($source)
     {
-
-        if(file_exists($source)){
-            //read the file and bind its content
-            $this->xmlSource = file_get_contents($source);
-        }else {
-            throw new \Exception('File not found!');
-        }
+       $this->source = file_get_contents($source);
     }
 
     public function getLoadedSource()
     {
-        return $this->xmlSource;
+        return $this->source;
     }
 
    abstract public function getResult();
