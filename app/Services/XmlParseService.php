@@ -13,6 +13,6 @@ class XmlParseService
             $element = simplexml_load_string($source);
 
         var_dump(array_sum((array)$element->Param->BetInfo->BetAmount)); exit();
-      
+
     }
 }
