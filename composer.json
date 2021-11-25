@@ -1,0 +1,15 @@
+{
+    "name": "mshukurlu/xml-parser",
+    "authors": [
+        {
+            "name": "Murad Shukurlu",
+            "email": "shukurlu.murad@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-dom": "*"
+    },
+    "autoload": {
+        "App\\": "app/"
+    }
+}
