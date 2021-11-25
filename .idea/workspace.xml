@@ -20,18 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b5f665b-26b5-4dbe-8d76-a73c6de9f1e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Interfaces/RunnerInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Services/XmlParseService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/example.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/start.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/xml-parser.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/xml-parser.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Abstracts/ScriptRunner.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Abstracts/ScriptRunner.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Abstracts/SourceXmlAbstract.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Abstracts/SourceXmlAbstract.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Scripts/GetXmlFromSource.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Scripts/GetXmlFromSource.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Services/DomDocumentService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Interfaces/GetXmlFromSource.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Interfaces/GetXmlFromSource.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Services/SourceXmlService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/SourceXmlService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Services/XmlParseService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/XmlParseService.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1637832930846</updated>
       <workItem from="1637832931898" duration="4541000" />
-      <workItem from="1637845083649" duration="4040000" />
+      <workItem from="1637845083649" duration="5164000" />
     </task>
     <servers />
   </component>

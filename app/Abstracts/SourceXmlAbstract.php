@@ -20,7 +20,7 @@ abstract  class SourceXmlAbstract implements GetXmlFromSource
         }
     }
 
-    public function getXmlFromSource()
+    public function getLoadedSource()
     {
         return $this->xmlSource;
     }

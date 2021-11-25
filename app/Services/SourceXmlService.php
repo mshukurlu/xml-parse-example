@@ -9,13 +9,13 @@ class SourceXmlService  extends SourceXmlAbstract
 {
     public function sumAllBetAmount(){
 
-        $childNodes = XmlParseService::getBetInfoProperty($this->xmlSource);
+        $getBetInfo = XmlParseService::getBetInfoProperty($this->getLoadedSource());
         $sum = 0;
-        var_dump($childNodes); exit();
-        foreach ($childNodes as $item){
-                if($item->nodeName==$this->getSumColumnName()){
-                    $sum+=$item->nodeValue;
-                }
+
+      //  array_sum(array_column($getBetInfo,'BetAmount'));
+
+        foreach ($getBetInfo->BetAmount as $item){
+                    $sum+=$item;
         }
 
         return $sum;
