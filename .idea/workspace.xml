@@ -36,7 +36,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1637832930846</updated>
-      <workItem from="1637832931898" duration="2169000" />
+      <workItem from="1637832931898" duration="3008000" />
     </task>
     <servers />
   </component>
@@ -48,9 +48,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="202" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1637833758896" />
-    <state x="1083" y="157" width="447" height="592" key="NewPhpClassDialog" timestamp="1637833727072">
+    <state x="1083" y="157" width="447" height="592" key="NewPhpClassDialog" timestamp="1637841343489">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1083" y="157" width="447" height="592" key="NewPhpClassDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1637833727072" />
+    <state x="1083" y="157" width="447" height="592" key="NewPhpClassDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1637841343489" />
   </component>
 </project>
