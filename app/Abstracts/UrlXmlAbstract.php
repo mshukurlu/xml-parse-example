@@ -22,6 +22,5 @@ abstract class UrlXmlAbstract implements GetXmlFromUrl
      return $request;
     }
 
-
     abstract public function getResult();
 }

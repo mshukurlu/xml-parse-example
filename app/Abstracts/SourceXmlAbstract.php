@@ -9,7 +9,7 @@ use App\Interfaces\GetXmlFromSource;
 abstract  class SourceXmlAbstract implements GetXmlFromSource
 {
     protected $source = null;
-    public function setXmlSource($source)
+    protected function setXmlSource($source)
     {
        $this->source = file_get_contents($source);
     }

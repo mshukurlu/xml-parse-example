@@ -13,7 +13,7 @@ class SourceXmlService  extends SourceXmlAbstract
         $this->setXmlSource($source);
     }
 
-    public function sumAllBetAmount(){
+    private function sumAllBetAmount(){
 
         $getBetInfo = XmlParseService::getBetInfoProperty($this->getLoadedSource());
         $sum = 0;
@@ -32,7 +32,7 @@ class SourceXmlService  extends SourceXmlAbstract
         return $this->sumAllBetAmount();
     }
 
-    public function getSumColumnName(){
+    private function getSumColumnName(){
         //Mey be we configure this by config file
         return 'betAmount';
     }

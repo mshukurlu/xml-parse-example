@@ -22,9 +22,8 @@
     <list default="true" id="2b5f665b-26b5-4dbe-8d76-a73c6de9f1e3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Abstracts/SourceXmlAbstract.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Abstracts/SourceXmlAbstract.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Interfaces/GetXmlFromSource.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Interfaces/GetXmlFromSource.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Abstracts/UrlXmlAbstract.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Abstracts/UrlXmlAbstract.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Services/SourceXmlService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/SourceXmlService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Services/XmlParseService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/XmlParseService.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +68,8 @@
       <option name="presentableId" value="Default" />
       <updated>1637832930846</updated>
       <workItem from="1637832931898" duration="4541000" />
-      <workItem from="1637845083649" duration="5164000" />
+      <workItem from="1637845083649" duration="10912000" />
+      <workItem from="1637861669676" duration="352000" />
     </task>
     <servers />
   </component>
@@ -86,20 +86,25 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="202" key="#com.intellij.ide.util.MemberChooser" timestamp="1637841608097">
+    <state x="765" y="202" key="#com.intellij.ide.util.MemberChooser" timestamp="1637853529139">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="202" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1637841608097" />
-    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1637841571467">
+    <state x="765" y="202" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1637853529139" />
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1637853525669">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1637841571467" />
-    <state x="1083" y="157" width="447" height="592" key="NewPhpClassDialog" timestamp="1637850254315">
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1637853525669" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1637857907347">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1083" y="157" width="447" height="592" key="NewPhpClassDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1637850254315" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1637857907347" />
+    <state x="1083" y="157" width="447" height="592" key="NewPhpClassDialog" timestamp="1637853498305">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1083" y="157" width="447" height="592" key="NewPhpClassDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1637853498305" />
     <state x="794" y="443" key="NewPhpFileDialog" timestamp="1637847898827">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
